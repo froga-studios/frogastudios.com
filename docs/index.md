@@ -1,16 +1,6 @@
----
-title: "Documentation | Froga Studios"
-author: "ExoPlant"
-date: "18/4/2021"
-output: 
-  html_document:
-     css: docs/test.css
-     self_contained: no
-
----
 
 ## **Documentation**
-
+(setq markdown-css-paths '("test.css"))
 <button class="button button1" onclick="myFunction()">Daleks Mod</button>
 <script>
 function myFunction() {
