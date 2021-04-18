@@ -1,1 +1,2 @@
-Froga Studios Website
+# Froga Studios Website
+If you are looking for information about our mods please go and read their [documentation](/docs/index.md)
