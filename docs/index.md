@@ -1,5 +1,5 @@
 ## **Documentation**
-<input type="Daleks Mod" onClick="myFunction()"/>
+<input type="text("daleks")" onClick="myFunction()"/>
 <script>
 function myFunction() {
 window.location.href="http://frogastudios.com/docs/daleks/";
