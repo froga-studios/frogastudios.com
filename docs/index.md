@@ -1,2 +1,7 @@
-## **__Documentation__**
-<button type="button" onclick="/daleks.md">Daleks</button>
+## **Documentation**
+     <input type="submit" onClick="myFunction()"/>
+     <script>
+       function myFunction() {
+         window.location.href="http://frogastudios.com/docs/daleks/";
+       }
+     </script>
