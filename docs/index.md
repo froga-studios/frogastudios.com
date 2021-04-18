@@ -1,6 +1,6 @@
 
 ## **Documentation**
-(setq markdown-css-paths '("test.css"))
+<link href="style.css" rel="stylesheet"></link>
 <button class="button button1" onclick="myFunction()">Daleks Mod</button>
 <script>
 function myFunction() {
