@@ -1,15 +1,15 @@
+---
+title: "Documentation | Froga Studios"
+author: "ExoPlant"
+date: "."
+output: 
+  html_document:
+     css: test.css
+     self_contained: no
+
+---
+
 ## **Documentation**
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
 
 <button class="button button1" onclick="myFunction()">Daleks Mod</button>
 <script>
