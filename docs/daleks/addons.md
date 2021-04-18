@@ -3,7 +3,7 @@
 This mod contains a built in api for creating custom dalek variants
 
 **Adding to gradle**
-```
+```java
 repositories {
   maven {  url 'https://jitpack.io'  }
   
@@ -22,11 +22,11 @@ Releases can be found @ either
 
  
 **Updating your fabric.mod.json**
-```
+```json
 "depends": {  "daleks":  "*REPLACE WITH RELEASE*"  }
 ```
 **Creating your variant**
-```
+```java
 public class Example implements ModInitializer {
     public static Variant MY_VARIANT;
 
@@ -37,7 +37,7 @@ public class Example implements ModInitializer {
 }
 ```
 
-```
+```java
 import io.github.froga_studios.daleks.common.variant.Variant;
 
 public class MyVariant implements Variant {
@@ -50,7 +50,7 @@ public class MyVariant implements Variant {
 ```
 
 **Registering a texture & model for your variant**
-```
+```java
 import io.github.froga_studios.daleks.client.graphics.render.Context;
 
 @Environment(EnvType.CLIENT)
