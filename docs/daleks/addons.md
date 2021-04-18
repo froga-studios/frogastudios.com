@@ -3,7 +3,7 @@
 This mod contains a built in api for creating custom dalek variants
 
 **Adding to gradle**
-```java
+```gradle
 repositories {
   maven {  url 'https://jitpack.io'  }
   
@@ -13,7 +13,8 @@ repositories {
 
 dependencies {
   modImplementation  'com.github.froga-studios:daleks:*REPLACE WITH RELEASE*'
-```}
+}
+```
 
 **Jitpack may NOT download the pom on the first try! (I will look into getting my own maven)**
 
@@ -25,6 +26,7 @@ Releases can be found @ either
 ```json
 "depends": {  "daleks":  "*REPLACE WITH RELEASE*"  }
 ```
+
 **Creating your variant**
 ```java
 public class Example implements ModInitializer {
