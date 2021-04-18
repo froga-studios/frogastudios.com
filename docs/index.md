@@ -1,2 +1,2 @@
 ## **__Documentation__**
-<button type="button" onclick="alert('Hello world!')">TEST!</button>
+<button type="button" onclick="/daleks.md">Daleks</button>
