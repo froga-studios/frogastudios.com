@@ -1,6 +1,6 @@
 
 ## **Documentation**
-<link href="style.css" rel="stylesheet"></link>
+<link href="style.css" rel="stylesheet"> </link>
 <button class="button button1" onclick="myFunction()">Daleks Mod</button>
 <script>
 function myFunction() {
