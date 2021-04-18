@@ -4,7 +4,7 @@ author: "ExoPlant"
 date: "18/4/2021"
 output: 
   html_document:
-     css: test.css
+     css: docs/test.css
      self_contained: no
 
 ---
