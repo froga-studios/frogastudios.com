@@ -1,9 +1,10 @@
-
 ## **Documentation**
-<link href="style.css" rel="stylesheet"> </link>
-<button class="button button1" onclick="myFunction()">Daleks Mod</button>
+<link href="style.css" rel="stylesheet">
+	<button class = "button button1" onClick = "myFunction()"> Daleks </button>
+</link>
+
 <script>
-function myFunction() {
-window.location.href="http://frogastudios.com/docs/daleks/";
-}
+	function myFunction() {
+		window.location.href = "http://frogastudios.com/docs/daleks/";
+	}
 </script>
