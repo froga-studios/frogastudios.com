@@ -1,14 +1,7 @@
-## **Documentation**
-
-<button class = "button button1" onClick = "openUtilities()"> Utilities </button>
-<button class = "button button1" onClick = "openDaleks()"> Daleks </button>
-
+<link href="style.css" rel="stylesheet">
+	<button class = "button button1" onClick = "myFunction()"> Daleks </button>
 <script>
-	function openUtilities() {
-		window.location.href = "http://frogastudios.com/docs/utilities/";
-	}
-	
-	function openDaleks() {
+	function myFunction() {
 		window.location.href = "http://frogastudios.com/docs/daleks/";
 	}
 </script>
